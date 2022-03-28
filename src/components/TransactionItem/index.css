@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+.statement-container1 {
+  border-left: 1px solid #cbd5e1;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  height: 6vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.box1 {
+  width: 80%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.para1 {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
